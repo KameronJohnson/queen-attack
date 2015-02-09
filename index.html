@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Queen Attack</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Queen Attack</h1>
+      <form id="queen-attack">
+        <div class = "form-group">
+          <label for="queen">Queen's coordinates</label>
+          <input type="text" id="queen-coordinates" placeholder="x,y">
+          <label for="opponent">Opponent's coordinates</label>
+          <input type="text" id="opponent-coordinates" placeholder="x,y">
+          <button type="submit" class="btn btn-md btn-warning">Attack?!?</button>
+        </div>
+      </form>
+
+      <div id="result">
+        <p>The Queen at <span class="queen_coordinates"></span> <span class="answer"></span> capture her opponent at <span class="opponent-coordinates"></span>.</p>
+      </div>
+
+    </div>
+  </body>
+</html>
